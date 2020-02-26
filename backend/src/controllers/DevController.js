@@ -16,8 +16,6 @@ module.exports = {
 
         const dev = await Dev.deleteOne({github_username});
 
-        //console.log(dev);
-
         return response.json(dev);
     },
 
